@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+html, body {
+    background-image: url('/images/background.svg');
+    background-position-y: -50rem;
+    background-position-x: -10rem;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+.nav-link{
+    color: white !important;
+    position: relative;
+}
+
+.nav-link:hover{
+    color: orange !important;
+}
+.nav-link:hover::after {
+    content: "";
+    height: 3px;
+    background: #FFBB00;
+    position: absolute;
+    bottom: 0.2rem;
+    left: 0.5rem;
+    right: 1.3rem;
+}
+.nav-item {
+    padding: 1rem;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 50px;
+    background-color:#FFBB00;
+    color: white; 
+    border-radius: 0.5rem;
+    border: none;
+    margin-right: 3rem;
+}
+.twophones img {
+    max-width: 100%;
+}
+.btn-primary:hover {
+    background-color: #ffbb00cc;
+}
+.btn-outline-primary:hover {
+    background-color: #FFBB00;
+    border: 1px solid #FFBB00;
+  }
+ .showcase-top{
+     display: flex;
+     margin-top: 3.5rem;
+ }
+
+.showcase-top h1 {
+    color: white;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 57px;
+    margin-top: 12rem;
+}
+.showcase-top p {
+    color: white;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+
+.btn-outline-primary {
+    color: white;
+    border-radius: 0.5rem;
+    border-color: white;
+    font-weight: medium;
+}
+.ec-logo {
+    margin-top: 15rem;
+    padding-right: 2.9rem;
+    padding-left: 2.9rem;
+    padding-bottom: 4rem;
+}
+.about-us {
+    display: flex;
+    margin-top: 6rem;
+}
+
+.galaxy {
+    margin-left:-10rem;
+    margin-right: 10rem;
+}
+
+.headline{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.about-us img {
+    margin-top: 1rem;
+    padding-right: 1rem;
+}
+.info {
+    color: #FFBB00;
+    background-color: #FFF5D9;
+    width: 87px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 0.5rem;
+    margin-top: 6rem;
+}
+.lorem {
+    color: #8A8A8A;
+}
+.info-box1 {
+    display: flex;
+}
+.info-box2 {
+    display: flex;
+}
+.features{
+    display: flex;
+}
+
+.features-gray {
+    background-color: #FCFCFC;
+    margin-top: 5rem;
+    padding-bottom: 5;
+}
+.features-lorem {
+    margin-top: 1.5rem;
+ 
+}
+.image-dots {
+    margin-left: -20rem;
+    margin-top: 10rem;
+    margin-right: 13rem;
+}
+.features-gray .container {
+    margin-top: 5rem;
+}
+.lorem-2 {
+    color: #8A8A8A;
+    font-size: 14px;
+}
+.info-box1 img {
+   padding-right: 1rem;
+   padding-bottom: 2rem;
+}
+.info-box2 img {
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+ }
+ .info-box1 h3 {
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .info-box2 h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.img-mover-2{
+    margin-left: 5rem;
+}
+
+#phones {
+    margin-top: 9rem;
+}
+.screens {
+    text-align: center;
+    margin: auto;
+}
+
+.move-down {
+    margin-top: 7rem;
+}
+.move-down img {
+    margin-left: -3rem;
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 6rem;
+}
+.screens p {
+    margin-top: 2rem;
+}
+.appstats {
+    background-image: url('/images/Layer\ 815.svg');
+    width: 828px;
+    height: 363px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.stats-number {
+    display: flex;
+}
+.stat-text {
+    padding-right: 1rem;
+}
+.appstats-flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 11rem;
+}
+.appstats-flex h2 {
+    color:#3096FE;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.appstats-flex h3 {
+    font-size: 25px;
+    align-content: center;
+    font-weight: 500;
+}
+
+.bg-blue {
+    background-image: url('/images/Component\ 2\ –\ 1.svg');
+    height: 550px;
+    max-width: 100%;
+}
+.download-text{
+    padding-top: 7rem;
+    padding-left: 5rem;
+}
+.download-text h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    width: 728px;
+    height: 132px;
+}
+.download-text p {
+    color: white;
+    width: 600px;
+    height: 54px;
+}
+.download-text img {
+    padding-right: 1rem;
+    padding-top: 2rem;
+}
+
+.contact-us-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+::placeholder {
+    color: #CCCCCC !important;
+    opacity: 1;
+  }
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: #FBFBFB;
+    resize: none;
+  }
+  input[type=submit] {
+    background-color: #3096FE;
+    color: white;
+    width: 220px;
+    height: 60px;
+    border-radius: 0.5rem;
+    box-shadow: none;
+    border: none;
+  }
+  .send-btn {
+      text-align: center;
+  }
+
+  input[type=submit]:hover {
+    background-color: #FFBB00; 
+  }
+
+.stripes-bg {
+    background-image: url('/images/Bg.png');
+    height: 300px;
+    margin-top: 4rem;
+}
+
+.logo-footer {
+    text-align: center;
+    padding-top: 2rem;
+}
+.nav-footer {
+    margin: auto; 
+}
+.social {
+    text-align: center;
+    padding: 1rem;
+}
+
+.social img {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.social img :hover {
+    background-color: orange;
+}
+
+@media (max-width: 1200px) {
+    .eclogo {
+        display: none;
+    }
+    .twophones img {
+        max-width: 100%;
+    }
+
+}
+@media (max-width: 992px) {
+    .eclogo {
+        display: none;
+    }
+    .nav-link:hover::after{
+        display: none;
+    }
+    .galaxy img {
+        display: none;
+    }
+    .twophones img {
+        display: none;
+    }
+    .img-mover {
+        display: none;
+    }
+    .bg-blue {
+        display: none;
+    }
+    .testtest {
+        display: unset;
+    }
+
+}
+
+  
+@media (max-width: 768px) {
+    .eclogo {
+        display: none;
+    }
+    .nav-link:hover::after{
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .eclogo {
+        display: none;
+    }
+    .nav-link:hover::after{
+        display: none;
+    }
+    .appstats {
+        padding-top: 10rem;
+        background-image: none;
+        width: auto;
+        height: auto;
+    }
+}
+
